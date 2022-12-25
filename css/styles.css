@@ -153,7 +153,7 @@ body {
   color: var(--active-button);
 }
 
-.header-email .header-tel{
+.header-email .header-tel {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -167,7 +167,8 @@ body {
 .header-email:focus,
 .header-tel:hover,
 .header-tel:focus {
-color: var(--active-button);  }
+  color: var(--active-button);
+}
 
 /* ----------------------HERO--------------------- */
 
@@ -234,7 +235,9 @@ color: var(--active-button);  }
 .features-item {
   max-width: 264px;
 }
-.features-title {margin-bottom: 8px;}
+.features-title {
+  margin-bottom: 8px;
+}
 
 /* --------------------ABOUT------------------- */
 
@@ -264,7 +267,9 @@ color: var(--active-button);  }
 .team-main-title {
   margin-bottom: 72px;
 }
-.team-title{margin-bottom: 8px;}
+.team-title {
+  margin-bottom: 8px;
+}
 
 .team-list {
   display: flex;
@@ -286,7 +291,9 @@ color: var(--active-button);  }
   background-color: var(--main-background-color);
 }
 /* --------------------PORTFOLIO-FILTERS------------------- */
-.filters {padding-top: 96px;}
+.filters {
+  padding-top: 96px;
+}
 
 .filters-list {
   display: flex;
@@ -308,22 +315,23 @@ color: var(--active-button);  }
 
 .content-list {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 
 .content {
   width: calc((100% - 48px) / 3);
-} 
+}
 
 .content-card {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
 }
 
-.content-title{margin-bottom: 8px;}
-
+.content-title {
+  margin-bottom: 8px;
+}
 
 /* ----------------------FOOTER--------------------- */
 
